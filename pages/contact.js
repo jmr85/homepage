@@ -22,6 +22,7 @@ const Contact = () => {
       .then(response => {
         actions.setSubmitting(false);
         actions.resetForm();
+        console.log("Message sent: ", response);
         handleServerResponse(true, "Thanks!");
       })
       .catch(error => {
