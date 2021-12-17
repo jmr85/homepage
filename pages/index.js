@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+// import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -33,7 +33,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Argentina!
+        Hello, {"I'm"} a full-stack developer based in Argentina!
       </Box>
 
       <Box display={{ md: 'flex' }}>
