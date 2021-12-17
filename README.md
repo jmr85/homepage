@@ -30,7 +30,7 @@ About
 -----
 
 **Authors**:
-* [Juan Martin Ruiz](https://github.com/jmr85) <juan.martin.ruiz@gmail.com>
+* [Juan Martin Ruiz](https://github.com/jmr85)
 
 **Original Authors**:
 * [Takuya Matsuyama](https://github.com/craftzdog)
