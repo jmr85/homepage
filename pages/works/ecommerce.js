@@ -46,7 +46,7 @@ const Work = () => (
         Yup - It is a library to validate the form fields, used to validate the Formik form fields.
       </P>
       <P>
-        Firebase - Firebase is Google's mobile app development platform. In this project it is used as a backend.
+        Firebase - Firebase is Google&apos;s mobile app development platform. In this project it is used as a backend.
       </P>
 
       <List ml={4} my={4}>
