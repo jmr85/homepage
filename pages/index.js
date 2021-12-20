@@ -68,7 +68,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
         I am a full-time developer based in Buenos Aires with a passion for creating digital things / services. 
-        When I'm not online, I love to go for a run.
+        When I&apos;m not online, I love to go for a run.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
