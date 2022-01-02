@@ -3,9 +3,7 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  Heading,
-  Center
+  ListItem
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -66,9 +64,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
+      {/* <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
-      </Heading>
+      </Heading> */}
 
       {/* <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/ecommerce_01.png" alt="ecommerce" />

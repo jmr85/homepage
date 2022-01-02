@@ -15,7 +15,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="consultoria" title="Consultoria" thumbnail="/images/works/consultorianatali.png">
+          <WorkGridItem id="consultancy" title="Consultancy" thumbnail="/images/works/consultorianatali.png">
             It is a landing page developed for an independent consultancy
           </WorkGridItem>
         </Section>

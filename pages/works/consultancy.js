@@ -5,10 +5,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Consultancy">
     <Container>
       <Title>
-        Consultoria Natali Ruiz de Galarreta <Badge>2021-</Badge>
+      Consultancy Natali Ruiz de Galarreta <Badge>2021-</Badge>
       </Title>
       <P>
         It is a landing page of a consultancy for entrepreneurs, professionals and anyone who has a business and wants to register their brand, as well as legal advice.
@@ -16,8 +16,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://consultorianatali.netlify.app/" target="_blank">
-            https://consultorianatali.netlify.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="http://natali.ruizdegalarreta.com.ar/" target="_blank">
+          http://natali.ruizdegalarreta.com.ar/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -26,7 +26,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Html, Sass, React</span>
+          <span>React, Sass</span>
         </ListItem>
       </List>
 
