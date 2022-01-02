@@ -46,7 +46,7 @@ const Contact = () => {
     if (!value) {
       error = 'Subject is required'
     } else if (value.length <= 4) {
-      error = "Enter name greater than 4 characters 😱"
+      error = "Enter subject greater than 4 characters 😱"
     }
     return error
   }
@@ -63,8 +63,8 @@ const Contact = () => {
     let error
     if (!value) {
       error = 'Question is required'
-    } else if (value.length < 35) {
-      error = "Enter name greater than 34 characters 😱"
+    } else if (value.length <= 30) {
+      error = "Minimum input 30 characters 😱"
     }
     return error
   }
