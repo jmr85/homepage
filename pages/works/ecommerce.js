@@ -74,7 +74,7 @@ const Work = () => (
         <WorkImage src="/images/works/ecommerce_01.png" alt="ecommerce" />
         <WorkImage src="/images/works/ecommerce_02.png" alt="ecommerce" />
       </SimpleGrid> */}
-      <WorkImage src="/images/works/ecommerce.gif" alt="ecommerce" />
+      <WorkImage src="/images/works/ecommerce.png" alt="ecommerce" />
       <WorkImage src="/images/works/ecommerce_02.png" alt="ecommerce" />
       <WorkImage src="/images/works/ecommerce_03.png" alt="ecommerce" />
       <WorkImage src="/images/works/ecommerce_04.png" alt="ecommerce" />
