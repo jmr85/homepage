@@ -25,9 +25,25 @@ const Works = () => (
             title="Ecommerce"
             thumbnail="/images/works/ecommerce_01.png"
           >
-            Ecommerce is specialized in the sale of products for developers such as programming books and laptop sales.
+            Ecommerce is specialized in the sale of products for developers such as programming books and laptop sales
           </WorkGridItem>
         </Section>
+      </SimpleGrid>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="FileSystemWatcherGUI"
+            thumbnail="/images/works/monitor.png"
+            title="FileSystemWatcherGUI"
+          >
+            The FileSystemWatcher Class monitors the file system and raises events whenever a specified Directory or file within a specified Directory changes
+          </WorkGridItem>
+        </Section>
+        {/* <Section delay={0.3}>
+          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
+            A VR Creative tools for fashion brands
+          </WorkGridItem>
+        </Section> */}
       </SimpleGrid>
     </Container>
   </Layout>
