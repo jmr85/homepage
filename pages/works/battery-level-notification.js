@@ -11,32 +11,26 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="FileSystemWatcherGUI">
+  <Layout title="battery-level-notification">
     <Container>
       <Title>
-      File System Watcher GUI <Badge>2019</Badge>
+      Battery Level Notification <Badge>2020</Badge>
       </Title>
       <P>
-      The FileSystemWatcher Class monitors the file system and raises events whenever a specified Directory or file within a specified Directory changes
+      ElectronJS Windows Desktop App
       </P>
-      <P>
-      This class can watch for changes within the directory to include sub directories and can monitor directories on a local machine, a network drive, or a remote computer.  
-      </P>
-      <p>
-      For example, each time a new file has been created, the event triggers a popup with the description of the file and the date.
-      </p>
       <P>
         Built with 🛠️
       </P>
       <P>
-        C#
+        Javascript
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://github.com/jmr85/FileSystemWatcherGUI" target="_blank">
-          https://github.com/jmr85/FileSystemWatcherGUI <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/jmr85/battery-level-notification" target="_blank">
+          https://github.com/jmr85/battery-level-notification <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -45,7 +39,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C#</span>
+          <span>Javascript, ElectronJS</span>
         </ListItem>
       </List>
 
@@ -57,8 +51,7 @@ const Work = () => (
         <WorkImage src="/images/works/ecommerce_01.png" alt="ecommerce" />
         <WorkImage src="/images/works/ecommerce_02.png" alt="ecommerce" />
       </SimpleGrid> */}
-      <WorkImage src="/images/works/monitor.png" alt="FileSystemWatcherGUI" />
-      <WorkImage src="/images/works/watcher.png" alt="watcher" />
+      <WorkImage src="/images/works/battery_level.png" alt="Battery Level Notification" />
     </Container>
   </Layout>
 )

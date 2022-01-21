@@ -39,11 +39,14 @@ const Works = () => (
             The FileSystemWatcher Class monitors the file system and raises events whenever a specified Directory or file within a specified Directory changes
           </WorkGridItem>
         </Section>
-        {/* <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+        <Section delay={0.3}>
+          <WorkGridItem 
+          id="battery-level-notification" 
+          thumbnail="/images/works/battery_level.png"
+          title="Battery Level Notification">
+            ElectronJS Windows Desktop App
           </WorkGridItem>
-        </Section> */}
+        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
